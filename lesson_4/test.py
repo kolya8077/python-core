@@ -1,1 +1,0 @@
-print('test app for git')
