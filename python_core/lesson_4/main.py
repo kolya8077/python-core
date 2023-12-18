@@ -1,63 +1,36 @@
-# Завдання 1
-# Користувач вводить із клавіатури число. Необхідно перевірити його на парність і непарність. Якщо число парне, потрібно вивести на екран число і напис Even number. Якщо число непарне виведіть на екран число і напис Odd number.
+# a = 5
+# b = 7
+# c = 10
 
-# num = int(input('Число:'))
+'''
+print (a, b, c)
+print ("Number a = {}". format(a))
+print ( "Number b = {}". format (b))
+print ("Number c = {}". format (c))
+print ("Number a = {}. b = {}. c = {}". format(a, b,c))
+print ("Number a = {}. b = {}. c = {}". format(c,b,a))
+print(f"Numbers : a = {a} . b = {b}. c = {c}")
+'''
 
-# if num % 2 == 0:
-#   print('Число парне')
-# else:
-#   print('Число не парне')
+import math
+print (math. ceil (2.5))
+print(math. floor (2.5))
+print (math.pow(2,3))
+print (math.sqrt (16))
 
-# Завдання 2.
-# Користувач вводить із клавіатури число. Необхідно перевірити його на кратність 7.
-# Якщо число кратне, потрібно вивести на екран число і напис Number is a multiple of 7.
-# Якщо число не кратне, виведіть на екран число і напис Number is not a multiple of 7.
+import random
+print( random.random ())        #0.0....1.0
+print(random.randint (0,1))     #0....1 • 1
+print (random.randint(0,1000))  #0. 1000
+print (random.randint(20,25))   #20. 50
 
-# value = int(input('Ведіть число:'))
-
-# if not value % 7:
-#     print(f'Number is a multiple of 7 - {value}')
-# else:
-#     print(f'Number is not a multiple of 7 - {value}')
-
-# Завдання 3
-# Користувач вводить із клавіатури два числа. Необхідно знайти максимум із двох чисел і вивести його на екран.
-
-# num1 = int(input('Число 1:'))
-# num2 = int(input('Число 2:'))
-
-# if num1 > num2:
-#     print(num1)
-# else:
-#     print(num2)
-
-# Завдання 4
-# Користувач вводить із клавіатури два числа. Необхідно знайти мінімум із двох чисел і вивести його на екран.
-
-# num1 = int(input('Число 1:'))
-# num2 = int(input('Число 2:'))
-
-# if num1 < num2:
-#   print('Мінімальне число: ',num1)
-# else:
-#   print('Мінімальне число: ',num2)
-
-# Завдання 5
-# Користувач вводить із клавіатури два числа. Залежно від вибору користувача потрібно показати суму двох чисел, різницю двох чисел, середньоарифметичне або добуток двох чисел.
-
-# number1 = int(input("Число 1:"))
-# action = input('дія:')
-# number2 = int(input("Число 2:"))
-
-# if action == "+":
-#     sum = number1 + number2
-#     print(sum)
-# elif action == '-':
-#     sum = number1 - number2
-#     print(sum)
-# elif action == '/':
-#     sum = number1 / number2
-#     print(sum)
-# elif action == '*':
-#     sum = number1 * number2
-#     print(sum)
+month = int(input("Enter number of month :"))#key
+match month: #2
+  case 1:
+    print ("January")
+  case 2:
+    print ("February")
+  case 3:
+    print ("March")
+  case _:
+    print ("Error")
