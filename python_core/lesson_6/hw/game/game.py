@@ -2,41 +2,48 @@
 
 import random
 
-print(" \t\tWelcome to the game")
+print("\t\tWelcome to the game")
 print("\t\tRock Paper Scissors")
 
-user = 0
-bot = 0
 
-user_score = 0
-bot_score = 0
+user_statistic = 0
+bot_statistic = 0
+draw_statistic = 0
+
 while True:
     user_score = 0
     bot_score = 0
-    for i in range(3):
+    
+    for i in range(5):
         print('-'*20,f'Round [{i+1}]' )
         while True:
-            user = input('\t[r] - rock;\n\t[p] - paper;\n\t[s] - scissors;\n\tEnter your choice: ')
+            user = input('\t[r] - rock;\n\t[p] - paper;\n\t[s] - scissors;\n\t[v] - spock;\n\t[l] - lizard;\n\tEnter your choice: ')
             user = user.lower()
             # if user == ['r', 'p', 's']:
-            if user == 'r' or user == 'p' or user == 's':
+            if user in ['r', 'p', 's', 'v', 'l']:
                 break
             else:
                 print('Try again enter new symbol ')
 
-        bot = random.choice('rps')
+        bot = random.choice('rpsvl')
         print('\tBot\tUser')
         print(f'\t {bot}\t{user}')
-        if user == 'r' and bot == 's' or user == 'p' and bot == 'r' or user == 's' and bot == 'p':
+        
+        win_keys = {'r': {'s', 'l'}, 'l': {'v', 'p'}, 'v': {'r', 's'}, 's': {'l', 'p'}, 'p': {'v', 'r'}}
+
+        if bot in win_keys[user]:
             user_score += 1
-        elif bot == 'r' and user == 'r' or bot == 'p' and user == 'r' or bot == 's' and user == 'p':
+        elif user in win_keys[bot]:
             bot_score += 1
 
     if user_score > bot_score:
+        user_statistic += 1
         print('============================You are winner============================')
     elif bot_score > user_score:
+        bot_statistic += 1
         print('============================Bot is winner============================')
     else:
+        draw_statistic += 1
         print('============================Draw============================')
     
     while True:
@@ -46,5 +53,11 @@ while True:
             break
         else:
             print('Enter your choice !!!')
+            
     if user_choise == 'n':
+        print(f'''
+            Bot win :: {bot_statistic}
+            User win :: {user_statistic}
+            Draw :: {draw_statistic}
+            ''')
         break
