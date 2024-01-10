@@ -42,7 +42,6 @@ build/
 .DS_Store
 Thumbs.db
 
-#others
-
-.zip
-.rar
+# Archives
+*.zip
+*.rar
