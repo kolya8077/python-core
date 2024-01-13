@@ -9,11 +9,11 @@
 # print(f" A = {a:-}. B = {b:-}")
 # print(f" A = {a:+}. B = {b:+}")
 
-# points = 12.2
+points = 12.2
 
-# print(f"You have {points:<10} points ")
-# print(f"You have {points:>10} points ")
-# print(f"You have {points:^10} points ")
+print(f"You have {points:<10} points ")
+print(f"You have {points:>10} points ")
+print(f"You have {points:^10} points ")
 
 
 print(chr(9556), end='')
