@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приклад використання тегу aside</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        main {
+            float: left;
+            width: 40%;
+        }
+
+        aside.left-aside, aside.right-aside {
+            float: left;
+            width: 20%;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        aside.right-aside {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <aside class="left-aside">
+        <h2>Лівий бічний блок 1</h2>
+        <p>Це блок з додатковою інформацією або рекламою.</p>
+    </aside>
+
+    <main>
+        <h1>Основний контент</h1>
+        <p>Це основний вміст сторінки.</p>
+    </main>
+
+    <aside class="left-aside">
+        <h2>Лівий бічний блок 2</h2>
+        <p>Це ще один блок з додатковою інформацією.</p>
+    </aside>
+
+    <aside class="right-aside">
+        <h2>Правий бічний блок</h2>
+        <p>Це блок на всю довжину правого боку.</p>
+    </aside>
+</body>
+</html>
