@@ -60,3 +60,38 @@ print('Список 2 =',arr2)
 Напишіть функцію, що видаляє зі списку цілих деяке задане число. З функції потрібно повернути кількість видалених елементів.
 '''
 
+# def delete_elements(new, arr1):
+#     deleted_elements = list(filter(lambda x: x != new, arr1))
+#     count = len(arr1) - len(deleted_elements)
+#     arr1[:] = deleted_elements
+#     return count
+
+# print("Список:", arr1)
+# number = int(input('Яке число бажаєте видалити?: '))
+# deleted_count = delete_elements(number, arr1)
+# print("Кількість видалених елементів:", deleted_count)
+# print("Оновлений список:", arr1)
+
+'''
+Завдання 5
+Напишіть функцію, яка отримує два списки як параметр і повертає список, що містить елементи обох списків.
+'''
+
+# def merge_lists(list1, list2):
+#     return list1 + list2
+
+# print("Об'єднаний список:", merge_lists(arr1, arr2))
+
+'''
+Завдання 6
+Напишіть функцію, що обчислює ступінь кожного елемента списку цілих. Значення для ступеня передається як параметр, список теж передається як параметр. Функція повертає новий список, що містить отримані результати.
+'''
+
+def power_up(arr, power):
+    return [num ** power for num in arr]
+
+
+numbers = arr1
+power = int(input('Ведіть число до якого ступіня піднести: '))
+
+print(f"Список чисел піднесений до степеня {power}: {power_up(numbers, power)}")
