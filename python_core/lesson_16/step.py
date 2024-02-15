@@ -93,50 +93,48 @@
 Згенерований виняток має бути оброблений кодом програми.
 '''
 
+# arr = []
+# result = 0
+# summa = 0
 
 
-arr = []
-result = 0
-summa = 0
-
-
-while True:
-    try:
-        if len(arr) > 0:
-            question = input('Бажаєте продовжитти вводити? ТАК = y, НІ = n: ')
-            match question:
-                case 'y':
-                    pass
-                case "n":
-                    result = summa(arr)
-                    if result == None:
-                        result = 'Виявлено відємне число.'
-                    break
-                case _:
-                    raise Exception("Error")
+# while True:
+#     try:
+#         if len(arr) > 0:
+#             question = input('Бажаєте продовжитти вводити? ТАК = y, НІ = n: ')
+#             match question:
+#                 case 'y':
+#                     pass
+#                 case "n":
+#                     result = summa(arr)
+#                     if result == None:
+#                         result = 'Виявлено відємне число.'
+#                     break
+#                 case _:
+#                     raise Exception("Error")
         
-        num = int(input('Введіть додатнє число: '))
-        arr.append(num)
+#         num = int(input('Введіть додатнє число: '))
+#         arr.append(num)
             
-    except ValueError:
-        print("Помилка введення!!! Потрібно ввести число")
-    except Exception as ex:
-        print(ex)
+#     except ValueError:
+#         print("Помилка введення!!! Потрібно ввести число")
+#     except Exception as ex:
+#         print(ex)
 
-try:
-    for i in arr:
-        if i > 0:
-            for i in arr:
-                summa += i
-        else:
-            raise Exception("виявлення відʼємного значення")
-except ValueError:
-        print("Помилка введення!!! Потрібно ввести число")
-except Exception as ex:
-    print(ex)
+# try:
+#     for i in arr:
+#         if i > 0:
+#             for i in arr:
+#                 summa += i
+#         else:
+#             raise Exception("виявлення відʼємного значення")
+# except ValueError:
+#         print("Помилка введення!!! Потрібно ввести число")
+# except Exception as ex:
+#     print(ex)
 
-print(arr)
-print(result)
+# print(arr)
+# print(result)
 
 '''
 Завдання 4
