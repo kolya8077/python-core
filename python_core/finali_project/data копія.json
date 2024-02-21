@@ -1,0 +1,648 @@
+{
+    "storage": {
+        "laptops": {
+            "Asus": [
+                {
+                    "model": "Asus ZenBook 14",
+                    "processor": "Intel Core i7-1165G7",
+                    "ram": "16GB DDR4",
+                    "storage": "512GB SSD",
+                    "display": "14-inch FHD",
+                    "price": 1099.99,
+                    "quantity": 7
+                },
+                {
+                    "model": "Asus ROG Zephyrus G14",
+                    "processor": "AMD Ryzen 9 5900HS",
+                    "ram": "32GB DDR4",
+                    "storage": "1TB SSD",
+                    "display": "14-inch QHD",
+                    "price": 1499.99,
+                    "quantity": 3
+                }
+            ],
+            "Lenovo": [
+                {
+                    "model": "Lenovo ThinkPad X1 Carbon",
+                    "processor": "Intel Core i7-1185G7",
+                    "ram": "16GB LPDDR4X",
+                    "storage": "512GB SSD",
+                    "display": "14-inch WQHD",
+                    "price": 1499.99,
+                    "quantity": 8
+                },
+                {
+                    "model": "Lenovo Yoga 9i",
+                    "processor": "Intel Core i7-1185G7",
+                    "ram": "16GB DDR4",
+                    "storage": "1TB SSD",
+                    "display": "14-inch UHD",
+                    "price": 1599.99,
+                    "quantity": 2
+                }
+            ],
+            "Acer": [
+                {
+                    "model": "Acer Swift 3",
+                    "processor": "AMD Ryzen 7 5700U",
+                    "ram": "8GB LPDDR4X",
+                    "storage": "512GB SSD",
+                    "display": "14-inch FHD",
+                    "price": 699.99,
+                    "quantity": 5
+                },
+                {
+                    "model": "Acer Predator Helios 300",
+                    "processor": "Intel Core i7-11800H",
+                    "ram": "16GB DDR4",
+                    "storage": "512GB SSD",
+                    "display": "15.6-inch FHD 144Hz",
+                    "price": 1199.99,
+                    "quantity": 6
+                }
+            ],
+            "HP": [
+                {
+                    "model": "HP Spectre x360",
+                    "processor": "Intel Core i7-1165G7",
+                    "ram": "16GB LPDDR4X",
+                    "storage": "1TB SSD",
+                    "display": "13.3-inch OLED",
+                    "price": 1499.99,
+                    "quantity": 9
+                },
+                {
+                    "model": "HP Envy 15",
+                    "processor": "Intel Core i7-10750H",
+                    "ram": "16GB DDR4",
+                    "storage": "512GB SSD",
+                    "display": "15.6-inch 4K UHD",
+                    "price": 1299.99,
+                    "quantity": 4
+                }
+            ],
+            "Dell": [
+                {
+                    "model": "Dell XPS 13",
+                    "processor": "Intel Core i7-1165G7",
+                    "ram": "16GB LPDDR4X",
+                    "storage": "512GB SSD",
+                    "display": "13.4-inch 4K UHD",
+                    "price": 1399.99,
+                    "quantity": 3
+                },
+                {
+                    "model": "Dell Inspiron 15 7000",
+                    "processor": "Intel Core i7-1165G7",
+                    "ram": "16GB DDR4",
+                    "storage": "512GB SSD",
+                    "display": "15.6-inch FHD",
+                    "price": 999.99,
+                    "quantity": 7
+                }
+            ],
+            "MSI": [
+                {
+                    "model": "MSI GS66 Stealth",
+                    "processor": "Intel Core i7-10870H",
+                    "ram": "16GB DDR4",
+                    "storage": "1TB SSD",
+                    "display": "15.6-inch FHD 240Hz",
+                    "price": 1599.99,
+                    "quantity": 6
+                },
+                {
+                    "model": "MSI Creator 15",
+                    "processor": "Intel Core i7-10875H",
+                    "ram": "32GB DDR4",
+                    "storage": "1TB SSD",
+                    "display": "15.6-inch 4K UHD",
+                    "price": 1999.99,
+                    "quantity": 4
+                }
+            ],
+            "Apple": [
+                {
+                    "model": "Apple MacBook Air",
+                    "processor": "Apple M1",
+                    "ram": "8GB",
+                    "storage": "256GB SSD",
+                    "display": "13.3-inch Retina",
+                    "price": 999.99,
+                    "quantity": 5
+                },
+                {
+                    "model": "Apple MacBook Pro",
+                    "processor": "Apple M1 Pro",
+                    "ram": "16GB",
+                    "storage": "512GB SSD",
+                    "display": "14-inch Liquid Retina XDR",
+                    "price": 1999.99,
+                    "quantity": 5
+                }
+            ]
+        },
+        "printers": {
+            "Canon": [
+                {
+                    "model": "Canon PIXMA TR4520",
+                    "type": "All-in-One Inkjet",
+                    "functions": ["Print", "Copy", "Scan", "Fax"],
+                    "price": 99.99,
+                    "quantity": 8
+                },
+                {
+                    "model": "Canon imageCLASS MF445dw",
+                    "type": "All-in-One Laser",
+                    "functions": ["Print", "Copy", "Scan", "Fax"],
+                    "price": 349.99,
+                    "quantity": 4
+                }
+            ],
+            "HP": [
+                {
+                    "model": "HP OfficeJet Pro 8025",
+                    "type": "All-in-One Inkjet",
+                    "functions": ["Print", "Copy", "Scan", "Fax"],
+                    "price": 169.99,
+                    "quantity": 6
+                },
+                {
+                    "model": "HP LaserJet Pro MFP M428fdw",
+                    "type": "All-in-One Laser",
+                    "functions": ["Print", "Copy", "Scan", "Fax"],
+                    "price": 449.99,
+                    "quantity": 3
+                }
+            ],
+            "Epson": [
+                {
+                    "model": "Epson EcoTank ET-2720",
+                    "type": "All-in-One Inkjet",
+                    "functions": ["Print", "Copy", "Scan"],
+                    "price": 249.99,
+                    "quantity": 7
+                },
+                {
+                    "model": "Epson WorkForce Pro WF-3720",
+                    "type": "All-in-One Inkjet",
+                    "functions": ["Print", "Copy", "Scan", "Fax"],
+                    "price": 149.99,
+                    "quantity": 5
+                }
+            ],
+            "Xerox": [
+                {
+                    "model": "Xerox Phaser 6510/DNI",
+                    "type": "Color Laser",
+                    "functions": ["Print"],
+                    "price": 349.99,
+                    "quantity": 2
+                },
+                {
+                    "model": "Xerox WorkCentre 6515/DNI",
+                    "type": "Color Laser",
+                    "functions": ["Print", "Copy", "Scan", "Fax"],
+                    "price": 499.99,
+                    "quantity": 3
+                }
+            ]
+        },
+        "monitors": {
+            "Acer": [
+                {
+                    "model": "Acer Predator XB273K",
+                    "display_size": "27-inch",
+                    "resolution": "4K UHD",
+                    "refresh_rate": "144Hz",
+                    "price": 899.99,
+                    "quantity": 4
+                },
+                {
+                    "model": "Acer Nitro VG240Y",
+                    "display_size": "23.8-inch",
+                    "resolution": "Full HD",
+                    "refresh_rate": "75Hz",
+                    "price": 149.99,
+                    "quantity": 6
+                }
+            ],
+            "Apple": [
+                {
+                    "model": "Apple Pro Display XDR",
+                    "display_size": "32-inch",
+                    "resolution": "6K Retina",
+                    "refresh_rate": "60Hz",
+                    "price": 4999.99,
+                    "quantity": 2
+                }
+            ],
+            "ASUS": [
+                {
+                    "model": "ASUS ROG Swift PG279Q",
+                    "display_size": "27-inch",
+                    "resolution": "WQHD",
+                    "refresh_rate": "165Hz",
+                    "price": 699.99,
+                    "quantity": 5
+                },
+                {
+                    "model": "ASUS VA24EHE",
+                    "display_size": "23.8-inch",
+                    "resolution": "Full HD",
+                    "refresh_rate": "75Hz",
+                    "price": 129.99,
+                    "quantity": 7
+                }
+            ],
+            "Dell": [
+                {
+                    "model": "Dell UltraSharp U3419W",
+                    "display_size": "34-inch",
+                    "resolution": "WQHD",
+                    "refresh_rate": "60Hz",
+                    "price": 899.99,
+                    "quantity": 4
+                }
+            ],
+            "HP": [
+                {
+                    "model": "HP Pavilion 22cwa",
+                    "display_size": "21.5-inch",
+                    "resolution": "Full HD",
+                    "refresh_rate": "60Hz",
+                    "price": 99.99,
+                    "quantity": 8
+                }
+            ],
+            "Huawei": [
+                {
+                    "model": "Huawei MateView GT",
+                    "display_size": "34-inch",
+                    "resolution": "UltraWide QHD",
+                    "refresh_rate": "165Hz",
+                    "price": 899.99,
+                    "quantity": 3
+                }
+            ],
+            "Lenovo": [
+                {
+                    "model": "Lenovo ThinkVision P44w-10",
+                    "display_size": "43.4-inch",
+                    "resolution": "Super UltraWide",
+                    "refresh_rate": "144Hz",
+                    "price": 1499.99,
+                    "quantity": 2
+                }
+            ],
+            "LG": [
+                {
+                    "model": "LG UltraGear 27GL850-B",
+                    "display_size": "27-inch",
+                    "resolution": "QHD Nano IPS",
+                    "refresh_rate": "144Hz",
+                    "price": 499.99,
+                    "quantity": 5
+                }
+            ],
+            "MSI": [
+                {
+                    "model": "MSI Optix MAG274QRF-QD",
+                    "display_size": "27-inch",
+                    "resolution": "QHD",
+                    "refresh_rate": "165Hz",
+                    "price": 399.99,
+                    "quantity": 6
+                }
+            ],
+            "Philips": [
+                {
+                    "model": "Philips Momentum 558M1RY",
+                    "display_size": "55-inch",
+                    "resolution": "4K UHD",
+                    "refresh_rate": "120Hz",
+                    "price": 1199.99,
+                    "quantity": 3
+                }
+            ]
+        },
+        "additional_devices": {
+            "Mice": [
+                {
+                    "brand": "Logitech",
+                    "model": "Logitech MX Master 3",
+                    "connection_type": "Bluetooth, USB",
+                    "price": 99.99,
+                    "quantity": 7
+                },
+                {
+                    "brand": "Razer",
+                    "model": "Razer DeathAdder V2",
+                    "connection_type": "USB",
+                    "price": 69.99,
+                    "quantity": 6
+                },
+                {
+                    "brand": "SteelSeries",
+                    "model": "SteelSeries Rival 600",
+                    "connection_type": "USB",
+                    "price": 79.99,
+                    "quantity": 8
+                },
+                {
+                    "brand": "Corsair",
+                    "model": "Corsair Dark Core RGB Pro",
+                    "connection_type": "Wireless, USB",
+                    "price": 79.99,
+                    "quantity": 5
+                }
+            ],
+            "Keyboards and Combos": [
+                {
+                    "brand": "Corsair",
+                    "model": "Corsair K95 RGB Platinum XT",
+                    "type": "Mechanical",
+                    "connection_type": "USB",
+                    "price": 199.99,
+                    "quantity": 3
+                },
+                {
+                    "brand": "Logitech",
+                    "model": "Logitech G Pro X",
+                    "type": "Mechanical",
+                    "connection_type": "USB",
+                    "price": 129.99,
+                    "quantity": 5
+                },
+                {
+                    "brand": "Razer",
+                    "model": "Razer BlackWidow Elite",
+                    "type": "Mechanical",
+                    "connection_type": "USB",
+                    "price": 129.99,
+                    "quantity": 4
+                },
+                {
+                    "brand": "SteelSeries",
+                    "model": "SteelSeries Apex Pro",
+                    "type": "Mechanical",
+                    "connection_type": "USB",
+                    "price": 199.99,
+                    "quantity": 3
+                }
+            ],
+            "Microphones": [
+                {
+                    "brand": "Blue",
+                    "model": "Blue Yeti",
+                    "connection_type": "USB",
+                    "price": 129.99,
+                    "quantity": 4
+                },
+                {
+                    "brand": "Rode",
+                    "model": "Rode NT-USB Mini",
+                    "connection_type": "USB",
+                    "price": 99.99,
+                    "quantity": 6
+                },
+                {
+                    "brand": "HyperX",
+                    "model": "HyperX QuadCast",
+                    "connection_type": "USB",
+                    "price": 139.99,
+                    "quantity": 5
+                }
+            ],
+            "Webcams": [
+                {
+                    "brand": "Logitech",
+                    "model": "Logitech C920S HD Pro",
+                    "resolution": "1080p",
+                    "connection_type": "USB",
+                    "price": 69.99,
+                    "quantity": 8
+                },
+                {
+                    "brand": "Razer",
+                    "model": "Razer Kiyo",
+                    "resolution": "1080p",
+                    "connection_type": "USB",
+                    "price": 99.99,
+                    "quantity": 4
+                }
+            ]
+        },
+        "accessories": {
+            "Backpacks": [
+                {
+                    "brand": "SwissGear",
+                    "model": "SwissGear Travel Gear 1900",
+                    "color": "Black",
+                    "material": "Polyester",
+                    "price": 79.99,
+                    "quantity": 6
+                },
+                {
+                    "brand": "Samsonite",
+                    "model": "Samsonite Kombi Backpack",
+                    "color": "Gray",
+                    "material": "Polyester",
+                    "price": 59.99,
+                    "quantity": 8
+                }
+            ],
+            "Laptop Sleeves": [
+                {
+                    "brand": "AmazonBasics",
+                    "model": "AmazonBasics 15.6-Inch Laptop Sleeve",
+                    "color": "Black",
+                    "material": "Neoprene",
+                    "price": 11.49,
+                    "quantity": 10
+                },
+                {
+                    "brand": "Case Logic",
+                    "model": "Case Logic 15.6-Inch Laptop Sleeve",
+                    "color": "Black",
+                    "material": "EVA Foam",
+                    "price": 17.99,
+                    "quantity": 7
+                }
+            ],
+            "External Hard Drives": [
+                {
+                    "brand": "Seagate",
+                    "model": "Seagate Portable 2TB",
+                    "interface": "USB 3.0",
+                    "price": 59.99,
+                    "quantity": 9
+                },
+                {
+                    "brand": "Western Digital",
+                    "model": "WD 4TB Elements Portable",
+                    "interface": "USB 3.0",
+                    "price": 89.99,
+                    "quantity": 6
+                }
+            ],
+            "USB Flash Drives": [
+                {
+                    "brand": "Samsung",
+                    "model": "Samsung BAR Plus 128GB",
+                    "interface": "USB 3.1",
+                    "price": 22.99,
+                    "quantity": 12
+                },
+                {
+                    "brand": "SanDisk",
+                    "model": "SanDisk Cruzer 256GB",
+                    "interface": "USB 2.0",
+                    "price": 24.99,
+                    "quantity": 8
+                }
+            ],
+            "Wireless Chargers": [
+                {
+                    "brand": "Anker",
+                    "model": "Anker Wireless Charger, PowerWave Pad",
+                    "compatible_devices": "iPhone, Samsung, LG",
+                    "price": 19.99,
+                    "quantity": 10
+                },
+                {
+                    "brand": "Belkin",
+                    "model": "Belkin Boost Up Wireless Charging Pad",
+                    "compatible_devices": "iPhone, Samsung, LG",
+                    "price": 29.99,
+                    "quantity": 6
+                }
+            ],
+            "USB-C Hubs": [
+                {
+                    "brand": "HyperDrive",
+                    "model": "HyperDrive USB C Hub",
+                    "ports": ["HDMI", "USB-A", "USB-C", "SD", "Micro SD"],
+                    "price": 79.99,
+                    "quantity": 7
+                },
+                {
+                    "brand": "Anker",
+                    "model": "Anker USB C Hub, PowerExpand+ 7-in-1",
+                    "ports": [
+                        "HDMI",
+                        "USB-A",
+                        "USB-C",
+                        "SD",
+                        "Micro SD",
+                        "Ethernet"
+                    ],
+                    "price": 49.99,
+                    "quantity": 5
+                }
+            ]
+        },
+        "software": {
+            "Operating Systems": [
+                {
+                    "name": "Microsoft Windows 11 Home",
+                    "type": "64-bit",
+                    "price": 139.99,
+                    "quantity": 10
+                },
+                {
+                    "name": "Microsoft Windows 11 Pro",
+                    "type": "64-bit",
+                    "price": 199.99,
+                    "quantity": 7
+                }
+            ],
+            "Office Suites": [
+                {
+                    "name": "Microsoft Office 365 Personal",
+                    "type": "Subscription",
+                    "price": 69.99,
+                    "quantity": 9
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2021",
+                    "type": "Lifetime",
+                    "price": 149.99,
+                    "quantity": 6
+                }
+            ],
+            "Security Software": [
+                {
+                    "name": "Norton 360 Deluxe",
+                    "type": "Subscription",
+                    "price": 89.99,
+                    "quantity": 8
+                },
+                {
+                    "name": "McAfee Total Protection",
+                    "type": "Subscription",
+                    "price": 79.99,
+                    "quantity": 7
+                }
+            ],
+            "Creativity Software": [
+                {
+                    "name": "Adobe Creative Cloud All Apps",
+                    "type": "Subscription",
+                    "price": 52.99,
+                    "quantity": 5
+                },
+                {
+                    "name": "CorelDRAW Graphics Suite 2021",
+                    "type": "Lifetime",
+                    "price": 499.99,
+                    "quantity": 4
+                }
+            ]
+        },
+        "external_drives": {
+            "Western Digital": [
+                {
+                    "model": "WD 5TB My Passport Portable",
+                    "interface": "USB 3.0",
+                    "price": 129.99,
+                    "quantity": 4
+                },
+                {
+                    "model": "WD 12TB Elements Desktop",
+                    "interface": "USB 3.0",
+                    "price": 229.99,
+                    "quantity": 3
+                }
+            ],
+            "Seagate": [
+                {
+                    "model": "Seagate Expansion 6TB Desktop",
+                    "interface": "USB 3.0",
+                    "price": 119.99,
+                    "quantity": 5
+                },
+                {
+                    "model": "Seagate Backup Plus Hub 8TB Desktop",
+                    "interface": "USB 3.0",
+                    "price": 149.99,
+                    "quantity": 6
+                }
+            ],
+            "Samsung": [
+                {
+                    "model": "Samsung T7 500GB Portable",
+                    "interface": "USB 3.2",
+                    "price": 79.99,
+                    "quantity": 7
+                },
+                {
+                    "model": "Samsung T5 1TB Portable",
+                    "interface": "USB 3.1",
+                    "price": 129.99,
+                    "quantity": 8
+                }
+            ]
+        }
+    }
+}
