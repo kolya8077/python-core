@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding-top: 50px;
+    width: 800px;
+    margin: auto;
+    background-color: rgb(227, 92, 67);
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(230, 228, 229);
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.43);
+}
+
+.box input {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.box input::placeholder {
+    text-align: center;
+}
+
+.button {
+    width: 100%;
+    background-color: rgb(50, 167, 91);
+    border-bottom: 2px solid rgb(11, 115, 47);
+    box-sizing: border-box;
+    padding: 7px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button:active {
+    border-bottom: 2px solid rgb(50, 167, 91);
+}
+
+.link {
+    text-align: center;
+    color: rgb(224, 98, 69);
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.box-link {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.box-link p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.social img {
+    margin-right: 5px;
+}
+
+.social a {
+    display: block;
+    width: 150px;
+}
+
+.facebook {
+    background-color: rgb(58, 90, 160);
+    padding: 10px 20px;
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.43);
+    color: #fff;
+    text-decoration: none;
+}
+
+.twitter {
+    background-color: rgb(29, 182, 235);
+    padding: 10px 20px;
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.43);
+    color: #fff;
+    text-decoration: none;
+}
