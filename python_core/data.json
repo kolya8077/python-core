@@ -3,6 +3,7 @@
         "laptops": {
             "Asus": [
                 {
+                    "id": 1,
                     "model": "Asus ZenBook 14",
                     "processor": "Intel Core i7-1165G7",
                     "ram": "16GB DDR4",
@@ -12,6 +13,7 @@
                     "quantity": 7
                 },
                 {
+                    "id": 2,
                     "model": "Asus ROG Zephyrus G14",
                     "processor": "AMD Ryzen 9 5900HS",
                     "ram": "32GB DDR4",
@@ -23,6 +25,7 @@
             ],
             "Lenovo": [
                 {
+                    "id": 3,
                     "model": "Lenovo ThinkPad X1 Carbon",
                     "processor": "Intel Core i7-1185G7",
                     "ram": "16GB LPDDR4X",
@@ -32,6 +35,7 @@
                     "quantity": 8
                 },
                 {
+                    "id": 4,
                     "model": "Lenovo Yoga 9i",
                     "processor": "Intel Core i7-1185G7",
                     "ram": "16GB DDR4",
@@ -43,6 +47,7 @@
             ],
             "Acer": [
                 {
+                    "id": 5,
                     "model": "Acer Swift 3",
                     "processor": "AMD Ryzen 7 5700U",
                     "ram": "8GB LPDDR4X",
@@ -52,6 +57,7 @@
                     "quantity": 5
                 },
                 {
+                    "id": 6,
                     "model": "Acer Predator Helios 300",
                     "processor": "Intel Core i7-11800H",
                     "ram": "16GB DDR4",
@@ -63,6 +69,7 @@
             ],
             "HP": [
                 {
+                    "id": 7,
                     "model": "HP Spectre x360",
                     "processor": "Intel Core i7-1165G7",
                     "ram": "16GB LPDDR4X",
@@ -72,6 +79,7 @@
                     "quantity": 9
                 },
                 {
+                    "id": 8,
                     "model": "HP Envy 15",
                     "processor": "Intel Core i7-10750H",
                     "ram": "16GB DDR4",
@@ -83,6 +91,7 @@
             ],
             "Dell": [
                 {
+                    "id": 9,
                     "model": "Dell XPS 13",
                     "processor": "Intel Core i7-1165G7",
                     "ram": "16GB LPDDR4X",
@@ -92,6 +101,7 @@
                     "quantity": 3
                 },
                 {
+                    "id": 10,
                     "model": "Dell Inspiron 15 7000",
                     "processor": "Intel Core i7-1165G7",
                     "ram": "16GB DDR4",
@@ -103,6 +113,7 @@
             ],
             "MSI": [
                 {
+                    "id": 11,
                     "model": "MSI GS66 Stealth",
                     "processor": "Intel Core i7-10870H",
                     "ram": "16GB DDR4",
@@ -112,6 +123,7 @@
                     "quantity": 6
                 },
                 {
+                    "id": 12,
                     "model": "MSI Creator 15",
                     "processor": "Intel Core i7-10875H",
                     "ram": "32GB DDR4",
@@ -123,6 +135,7 @@
             ],
             "Apple": [
                 {
+                    "id": 13,
                     "model": "Apple MacBook Air",
                     "processor": "Apple M1",
                     "ram": "8GB",
@@ -132,6 +145,7 @@
                     "quantity": 5
                 },
                 {
+                    "id": 14,
                     "model": "Apple MacBook Pro",
                     "processor": "Apple M1 Pro",
                     "ram": "16GB",
@@ -145,6 +159,7 @@
         "printers": {
             "Canon": [
                 {
+                    "id": 15,
                     "model": "Canon PIXMA TR4520",
                     "type": "All-in-One Inkjet",
                     "functions": ["Print", "Copy", "Scan", "Fax"],
@@ -152,6 +167,7 @@
                     "quantity": 8
                 },
                 {
+                    "id": 16,
                     "model": "Canon imageCLASS MF445dw",
                     "type": "All-in-One Laser",
                     "functions": ["Print", "Copy", "Scan", "Fax"],
@@ -161,6 +177,7 @@
             ],
             "HP": [
                 {
+                    "id": 17,
                     "model": "HP OfficeJet Pro 8025",
                     "type": "All-in-One Inkjet",
                     "functions": ["Print", "Copy", "Scan", "Fax"],
@@ -168,6 +185,7 @@
                     "quantity": 6
                 },
                 {
+                    "id": 18,
                     "model": "HP LaserJet Pro MFP M428fdw",
                     "type": "All-in-One Laser",
                     "functions": ["Print", "Copy", "Scan", "Fax"],
@@ -177,6 +195,7 @@
             ],
             "Epson": [
                 {
+                    "id": 19,
                     "model": "Epson EcoTank ET-2720",
                     "type": "All-in-One Inkjet",
                     "functions": ["Print", "Copy", "Scan"],
@@ -184,6 +203,7 @@
                     "quantity": 7
                 },
                 {
+                    "id": 20,
                     "model": "Epson WorkForce Pro WF-3720",
                     "type": "All-in-One Inkjet",
                     "functions": ["Print", "Copy", "Scan", "Fax"],
@@ -193,6 +213,7 @@
             ],
             "Xerox": [
                 {
+                    "id": 21,
                     "model": "Xerox Phaser 6510/DNI",
                     "type": "Color Laser",
                     "functions": ["Print"],
@@ -200,6 +221,7 @@
                     "quantity": 2
                 },
                 {
+                    "id": 22,
                     "model": "Xerox WorkCentre 6515/DNI",
                     "type": "Color Laser",
                     "functions": ["Print", "Copy", "Scan", "Fax"],
@@ -211,6 +233,7 @@
         "monitors": {
             "Acer": [
                 {
+                    "id": 23,
                     "model": "Acer Predator XB273K",
                     "display_size": "27-inch",
                     "resolution": "4K UHD",
@@ -219,6 +242,7 @@
                     "quantity": 4
                 },
                 {
+                    "id": 24,
                     "model": "Acer Nitro VG240Y",
                     "display_size": "23.8-inch",
                     "resolution": "Full HD",
@@ -229,6 +253,7 @@
             ],
             "Apple": [
                 {
+                    "id": 25,
                     "model": "Apple Pro Display XDR",
                     "display_size": "32-inch",
                     "resolution": "6K Retina",
@@ -239,6 +264,7 @@
             ],
             "ASUS": [
                 {
+                    "id": 26,
                     "model": "ASUS ROG Swift PG279Q",
                     "display_size": "27-inch",
                     "resolution": "WQHD",
@@ -247,6 +273,7 @@
                     "quantity": 5
                 },
                 {
+                    "id": 27,
                     "model": "ASUS VA24EHE",
                     "display_size": "23.8-inch",
                     "resolution": "Full HD",
@@ -257,6 +284,7 @@
             ],
             "Dell": [
                 {
+                    "id": 28,
                     "model": "Dell UltraSharp U3419W",
                     "display_size": "34-inch",
                     "resolution": "WQHD",
@@ -267,6 +295,7 @@
             ],
             "HP": [
                 {
+                    "id": 29,
                     "model": "HP Pavilion 22cwa",
                     "display_size": "21.5-inch",
                     "resolution": "Full HD",
@@ -277,6 +306,7 @@
             ],
             "Huawei": [
                 {
+                    "id": 30,
                     "model": "Huawei MateView GT",
                     "display_size": "34-inch",
                     "resolution": "UltraWide QHD",
@@ -287,6 +317,7 @@
             ],
             "Lenovo": [
                 {
+                    "id": 31,
                     "model": "Lenovo ThinkVision P44w-10",
                     "display_size": "43.4-inch",
                     "resolution": "Super UltraWide",
@@ -297,6 +328,7 @@
             ],
             "LG": [
                 {
+                    "id": 32,
                     "model": "LG UltraGear 27GL850-B",
                     "display_size": "27-inch",
                     "resolution": "QHD Nano IPS",
@@ -307,6 +339,7 @@
             ],
             "MSI": [
                 {
+                    "id": 33,
                     "model": "MSI Optix MAG274QRF-QD",
                     "display_size": "27-inch",
                     "resolution": "QHD",
@@ -317,6 +350,7 @@
             ],
             "Philips": [
                 {
+                    "id": 34,
                     "model": "Philips Momentum 558M1RY",
                     "display_size": "55-inch",
                     "resolution": "4K UHD",
@@ -329,6 +363,7 @@
         "additional_devices": {
             "Mice": [
                 {
+                    "id": 35,
                     "brand": "Logitech",
                     "model": "Logitech MX Master 3",
                     "connection_type": "Bluetooth, USB",
@@ -336,6 +371,7 @@
                     "quantity": 7
                 },
                 {
+                    "id": 36,
                     "brand": "Razer",
                     "model": "Razer DeathAdder V2",
                     "connection_type": "USB",
@@ -343,6 +379,7 @@
                     "quantity": 6
                 },
                 {
+                    "id": 37,
                     "brand": "SteelSeries",
                     "model": "SteelSeries Rival 600",
                     "connection_type": "USB",
@@ -350,6 +387,7 @@
                     "quantity": 8
                 },
                 {
+                    "id": 38,
                     "brand": "Corsair",
                     "model": "Corsair Dark Core RGB Pro",
                     "connection_type": "Wireless, USB",
@@ -359,6 +397,7 @@
             ],
             "Keyboards and Combos": [
                 {
+                    "id": 39,
                     "brand": "Corsair",
                     "model": "Corsair K95 RGB Platinum XT",
                     "type": "Mechanical",
@@ -367,6 +406,7 @@
                     "quantity": 3
                 },
                 {
+                    "id": 40,
                     "brand": "Logitech",
                     "model": "Logitech G Pro X",
                     "type": "Mechanical",
@@ -375,6 +415,7 @@
                     "quantity": 5
                 },
                 {
+                    "id": 41,
                     "brand": "Razer",
                     "model": "Razer BlackWidow Elite",
                     "type": "Mechanical",
@@ -383,6 +424,7 @@
                     "quantity": 4
                 },
                 {
+                    "id": 42,
                     "brand": "SteelSeries",
                     "model": "SteelSeries Apex Pro",
                     "type": "Mechanical",
@@ -393,6 +435,7 @@
             ],
             "Microphones": [
                 {
+                    "id": 43,
                     "brand": "Blue",
                     "model": "Blue Yeti",
                     "connection_type": "USB",
@@ -400,6 +443,7 @@
                     "quantity": 4
                 },
                 {
+                    "id": 44,
                     "brand": "Rode",
                     "model": "Rode NT-USB Mini",
                     "connection_type": "USB",
@@ -407,6 +451,7 @@
                     "quantity": 6
                 },
                 {
+                    "id": 45,
                     "brand": "HyperX",
                     "model": "HyperX QuadCast",
                     "connection_type": "USB",
@@ -416,6 +461,7 @@
             ],
             "Webcams": [
                 {
+                    "id": 46,
                     "brand": "Logitech",
                     "model": "Logitech C920S HD Pro",
                     "resolution": "1080p",
@@ -424,6 +470,7 @@
                     "quantity": 8
                 },
                 {
+                    "id": 47,
                     "brand": "Razer",
                     "model": "Razer Kiyo",
                     "resolution": "1080p",
@@ -436,6 +483,7 @@
         "accessories": {
             "Backpacks": [
                 {
+                    "id": 48,
                     "brand": "SwissGear",
                     "model": "SwissGear Travel Gear 1900",
                     "color": "Black",
@@ -444,6 +492,7 @@
                     "quantity": 6
                 },
                 {
+                    "id": 49,
                     "brand": "Samsonite",
                     "model": "Samsonite Kombi Backpack",
                     "color": "Gray",
@@ -454,6 +503,7 @@
             ],
             "Laptop Sleeves": [
                 {
+                    "id": 50,
                     "brand": "AmazonBasics",
                     "model": "AmazonBasics 15.6-Inch Laptop Sleeve",
                     "color": "Black",
@@ -462,6 +512,7 @@
                     "quantity": 10
                 },
                 {
+                    "id": 51,
                     "brand": "Case Logic",
                     "model": "Case Logic 15.6-Inch Laptop Sleeve",
                     "color": "Black",
@@ -472,6 +523,7 @@
             ],
             "External Hard Drives": [
                 {
+                    "id": 52,
                     "brand": "Seagate",
                     "model": "Seagate Portable 2TB",
                     "interface": "USB 3.0",
@@ -479,6 +531,7 @@
                     "quantity": 9
                 },
                 {
+                    "id": 53,
                     "brand": "Western Digital",
                     "model": "WD 4TB Elements Portable",
                     "interface": "USB 3.0",
@@ -488,6 +541,7 @@
             ],
             "USB Flash Drives": [
                 {
+                    "id": 54,
                     "brand": "Samsung",
                     "model": "Samsung BAR Plus 128GB",
                     "interface": "USB 3.1",
@@ -495,6 +549,7 @@
                     "quantity": 12
                 },
                 {
+                    "id": 55,
                     "brand": "SanDisk",
                     "model": "SanDisk Cruzer 256GB",
                     "interface": "USB 2.0",
@@ -504,6 +559,7 @@
             ],
             "Wireless Chargers": [
                 {
+                    "id": 56,
                     "brand": "Anker",
                     "model": "Anker Wireless Charger, PowerWave Pad",
                     "compatible_devices": "iPhone, Samsung, LG",
@@ -511,6 +567,7 @@
                     "quantity": 10
                 },
                 {
+                    "id": 57,
                     "brand": "Belkin",
                     "model": "Belkin Boost Up Wireless Charging Pad",
                     "compatible_devices": "iPhone, Samsung, LG",
@@ -520,6 +577,7 @@
             ],
             "USB-C Hubs": [
                 {
+                    "id": 58,
                     "brand": "HyperDrive",
                     "model": "HyperDrive USB C Hub",
                     "ports": ["HDMI", "USB-A", "USB-C", "SD", "Micro SD"],
@@ -527,6 +585,7 @@
                     "quantity": 7
                 },
                 {
+                    "id": 59,
                     "brand": "Anker",
                     "model": "Anker USB C Hub, PowerExpand+ 7-in-1",
                     "ports": [
@@ -545,101 +604,86 @@
         "software": {
             "Operating Systems": [
                 {
-                    "name": "Microsoft Windows 11 Home",
-                    "type": "64-bit",
+                    "id": 60,
+                    "name": "Windows 11 Home",
+                    "license_type": "Digital",
                     "price": 139.99,
                     "quantity": 10
                 },
                 {
-                    "name": "Microsoft Windows 11 Pro",
-                    "type": "64-bit",
+                    "id": 61,
+                    "name": "Windows 11 Pro",
+                    "license_type": "Digital",
                     "price": 199.99,
                     "quantity": 7
-                }
-            ],
-            "Office Suites": [
-                {
-                    "name": "Microsoft Office 365 Personal",
-                    "type": "Subscription",
-                    "price": 69.99,
-                    "quantity": 9
                 },
                 {
-                    "name": "Microsoft Office Home and Student 2021",
-                    "type": "Lifetime",
-                    "price": 149.99,
-                    "quantity": 6
-                }
-            ],
-            "Security Software": [
-                {
-                    "name": "Norton 360 Deluxe",
-                    "type": "Subscription",
-                    "price": 89.99,
+                    "id": 62,
+                    "name": "macOS Monterey",
+                    "license_type": "Digital",
+                    "price": 0,
                     "quantity": 8
                 },
                 {
-                    "name": "McAfee Total Protection",
-                    "type": "Subscription",
-                    "price": 79.99,
-                    "quantity": 7
+                    "id": 63,
+                    "name": "Ubuntu 20.04 LTS",
+                    "license_type": "Digital",
+                    "price": 0,
+                    "quantity": 12
                 }
             ],
-            "Creativity Software": [
+            "Productivity Software": [
                 {
-                    "name": "Adobe Creative Cloud All Apps",
-                    "type": "Subscription",
-                    "price": 52.99,
-                    "quantity": 5
-                },
-                {
-                    "name": "CorelDRAW Graphics Suite 2021",
-                    "type": "Lifetime",
-                    "price": 499.99,
-                    "quantity": 4
-                }
-            ]
-        },
-        "external_drives": {
-            "Western Digital": [
-                {
-                    "model": "WD 5TB My Passport Portable",
-                    "interface": "USB 3.0",
-                    "price": 129.99,
-                    "quantity": 4
-                },
-                {
-                    "model": "WD 12TB Elements Desktop",
-                    "interface": "USB 3.0",
-                    "price": 229.99,
-                    "quantity": 3
-                }
-            ],
-            "Seagate": [
-                {
-                    "model": "Seagate Expansion 6TB Desktop",
-                    "interface": "USB 3.0",
-                    "price": 119.99,
-                    "quantity": 5
-                },
-                {
-                    "model": "Seagate Backup Plus Hub 8TB Desktop",
-                    "interface": "USB 3.0",
+                    "id": 64,
+                    "name": "Microsoft Office Home & Student 2021",
+                    "license_type": "Digital",
                     "price": 149.99,
-                    "quantity": 6
-                }
-            ],
-            "Samsung": [
-                {
-                    "model": "Samsung T7 500GB Portable",
-                    "interface": "USB 3.2",
-                    "price": 79.99,
-                    "quantity": 7
+                    "quantity": 10
                 },
                 {
-                    "model": "Samsung T5 1TB Portable",
-                    "interface": "USB 3.1",
-                    "price": 129.99,
+                    "id": 65,
+                    "name": "Microsoft Office Home & Business 2021",
+                    "license_type": "Digital",
+                    "price": 249.99,
+                    "quantity": 8
+                },
+                {
+                    "id": 66,
+                    "name": "Adobe Creative Cloud All Apps",
+                    "license_type": "Digital",
+                    "price": 599.99,
+                    "quantity": 5
+                }
+            ],
+            "Antivirus & Security": [
+                {
+                    "id": 67,
+                    "name": "Norton 360 Deluxe",
+                    "license_type": "Digital",
+                    "price": 39.99,
+                    "quantity": 9
+                },
+                {
+                    "id": 68,
+                    "name": "McAfee Total Protection",
+                    "license_type": "Digital",
+                    "price": 29.99,
+                    "quantity": 11
+                }
+            ],
+            "Utilities": [
+                {
+                    "id": 69,
+                    "name": "CCleaner Professional",
+                    "license_type": "Digital",
+                    "price": 24.95,
+                    "quantity": 6
+                },
+                {
+                    "id": 70,
+                    "name": "WinRAR",
+                    "license_type": "Digital",
+                    "price": 29.99,
                     "quantity": 8
                 }
             ]

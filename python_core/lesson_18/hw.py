@@ -1,5 +1,6 @@
 import json
 
+
 def space_row():
     print(chr(9474), end='')
     for i in range(4):
@@ -9,6 +10,7 @@ def space_row():
     for i in range(space[4]):
         print(' ', end='')
     print(chr(9474))
+
 
 space = [6, 12, 27, 16, 15]
 
@@ -37,6 +39,8 @@ arr_space = [6, 12, 23, 16, 15]
 stop_execution = False
 
 # Функція для зчитування списку з файлу
+
+
 def read_list_from_file(file_name):
     try:
         with open(file_name, 'r') as file:
@@ -46,12 +50,15 @@ def read_list_from_file(file_name):
         return []
 
 # Функція для збереження списку у файл
+
+
 def save_list_to_file(file_name, arr):
     with open(file_name, 'w') as file:
         json.dump(arr, file, indent=4)
 
+
 # Зчитуємо список з файлу або створюємо новий
-arr = read_list_from_file('data.json')
+arr = read_list_from_file('python_core/lesson_18/data.json')
 
 while not stop_execution:
     print(chr(9484), end='')

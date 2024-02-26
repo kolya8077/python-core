@@ -1,0 +1,86 @@
+[
+    {
+        "id": 23,
+        "model": "Acer Predator XB273K",
+        "specifications": "27-inch, 4K UHD, 144Hz",
+        "price": 899.99,
+        "quantity": 4
+    },
+    {
+        "id": 24,
+        "model": "Acer Nitro VG240Y",
+        "specifications": "23.8-inch, Full HD, 75Hz",
+        "price": 149.99,
+        "quantity": 6
+    },
+    {
+        "id": 25,
+        "model": "Apple Pro Display XDR",
+        "specifications": "32-inch, 6K Retina, 60Hz",
+        "price": 4999.99,
+        "quantity": 2
+    },
+    {
+        "id": 26,
+        "model": "ASUS ROG Swift PG279Q",
+        "specifications": "27-inch, WQHD, 165Hz",
+        "price": 699.99,
+        "quantity": 5
+    },
+    {
+        "id": 27,
+        "model": "ASUS VA24EHE",
+        "specifications": "23.8-inch, Full HD, 75Hz",
+        "price": 129.99,
+        "quantity": 7
+    },
+    {
+        "id": 28,
+        "model": "Dell UltraSharp U3419W",
+        "specifications": "34-inch, WQHD, 60Hz",
+        "price": 899.99,
+        "quantity": 4
+    },
+    {
+        "id": 29,
+        "model": "HP Pavilion 22cwa",
+        "specifications": "21.5-inch, Full HD, 60Hz",
+        "price": 99.99,
+        "quantity": 8
+    },
+    {
+        "id": 30,
+        "model": "Huawei MateView GT",
+        "specifications": "34-inch, UltraWide QHD, 165Hz",
+        "price": 899.99,
+        "quantity": 3
+    },
+    {
+        "id": 31,
+        "model": "Lenovo ThinkVision P44w-10",
+        "specifications": "43.4-inch, Super UltraWide, 144Hz",
+        "price": 1499.99,
+        "quantity": 2
+    },
+    {
+        "id": 32,
+        "model": "LG UltraGear 27GL850-B",
+        "specifications": "27-inch, QHD Nano IPS, 144Hz",
+        "price": 499.99,
+        "quantity": 5
+    },
+    {
+        "id": 33,
+        "model": "MSI Optix MAG274QRF-QD",
+        "specifications": "27-inch, QHD, 165Hz",
+        "price": 399.99,
+        "quantity": 6
+    },
+    {
+        "id": 34,
+        "model": "Philips Momentum 558M1RY",
+        "specifications": "55-inch, 4K UHD, 120Hz",
+        "price": 1199.99,
+        "quantity": 3
+    }
+]

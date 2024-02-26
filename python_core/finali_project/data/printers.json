@@ -1,0 +1,102 @@
+[
+    {
+        "id": 15,
+        "model": "Canon PIXMA TR4520",
+        "specifications": "All-in-One Inkjet",
+        "functions": [
+            "Print",
+            "Copy",
+            "Scan",
+            "Fax"
+        ],
+        "price": 99.99,
+        "quantity": 8
+    },
+    {
+        "id": 16,
+        "model": "Canon imageCLASS MF445dw",
+        "specifications": "All-in-One Laser",
+        "functions": [
+            "Print",
+            "Copy",
+            "Scan",
+            "Fax"
+        ],
+        "price": 349.99,
+        "quantity": 4
+    },
+    {
+        "id": 17,
+        "model": "HP OfficeJet Pro 8025",
+        "specifications": "All-in-One Inkjet",
+        "functions": [
+            "Print",
+            "Copy",
+            "Scan",
+            "Fax"
+        ],
+        "price": 169.99,
+        "quantity": 6
+    },
+    {
+        "id": 18,
+        "model": "HP LaserJet Pro MFP M428fdw",
+        "specifications": "All-in-One Laser",
+        "functions": [
+            "Print",
+            "Copy",
+            "Scan",
+            "Fax"
+        ],
+        "price": 449.99,
+        "quantity": 3
+    },
+    {
+        "id": 19,
+        "model": "Epson EcoTank ET-2720",
+        "specifications": "All-in-One Inkjet",
+        "functions": [
+            "Print",
+            "Copy",
+            "Scan"
+        ],
+        "price": 249.99,
+        "quantity": 7
+    },
+    {
+        "id": 20,
+        "model": "Epson WorkForce Pro WF-3720",
+        "specifications": "All-in-One Inkjet",
+        "functions": [
+            "Print",
+            "Copy",
+            "Scan",
+            "Fax"
+        ],
+        "price": 149.99,
+        "quantity": 5
+    },
+    {
+        "id": 21,
+        "model": "Xerox Phaser 6510/DNI",
+        "specifications": "Color Laser",
+        "functions": [
+            "Print"
+        ],
+        "price": 349.99,
+        "quantity": 2
+    },
+    {
+        "id": 22,
+        "model": "Xerox WorkCentre 6515/DNI",
+        "specifications": "Color Laser",
+        "functions": [
+            "Print",
+            "Copy",
+            "Scan",
+            "Fax"
+        ],
+        "price": 499.99,
+        "quantity": 3
+    }
+]
